@@ -31,3 +31,10 @@ npm run build
 ```
 clasp push
 ```
+
+### Error `shallow update not allowed` Soulution
+```
+git remote add old https://github.com/yhishi/gas-clasp-templete
+git fetch --unshallow old
+```
+By doing so you can push as usual.
